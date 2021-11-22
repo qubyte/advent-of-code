@@ -1,0 +1,135 @@
+0: baaabaab | baabaaab | babbaaab | babaaaab | baabbbab | babbbbab | babbabab | babaabab | baababab | baaaabab | bbabaaab | bbaaaaab | bbabbaab | bbbaabab | bbaaabab | bbababab | bbbbbbab | bbbabbab | bbabbbab | bbaabbab | aaaabbab | aabbabab | aabaabab | aabbbbab | abbbbbab | ababbbab | abaabbab | abbaabab | abaaabab | abbbabab | abbabaab | abbbbaab | ababbaab | aaababbb | aabaabbb | aababbbb | aabbbbbb | aaabbbbb | abbaabbb | abbbabbb | abababbb | ababbbbb | abbbbbbb | ababaabb | abbaaabb | aaaababb | aaaaaabb | bbabaabb | bbaaaabb | bbabbabb | baabaabb | baaaaabb | baabbabb | babbaabb | babaaabb | babbbbbb | bababbbb | baabbbbb | baaabbbb | bbbabbbb | bbaabbbb | bbbbbbbb | bbbaabbb | bbaaabbb | abbbbbaa | abbabbaa | ababbbaa | abaabbaa | abbbbaaa | abbabaaa | abbaaaaa | ababaaaa | aaabaaaa | aaaaaaaa | aaabbbaa | aaaabbaa | aaaaabaa | aabbabaa | aabaabaa | aabbbbaa | aabbbaaa | aababaaa | aabaaaaa | abbaaaba | abbbaaba | ababaaba | aabbaaba | aaabaaba | aaabbaba | aabbbbba | aabbabba | aababbba | aabaabba | aaababba | abbaabba | abaaabba | abbabbba | babbaaaa | babaaaaa | bababbaa | babbabaa | babaaaba | babbabba | babaabba | baaabaaa | baababaa | baabbbaa | baabbaba | baabaaba | baabbbba | baaaabba | baaababa | bbbbabba | bbbaabba | bbabbaba | bbbababa | bbbbaaba | bbabbaaa | bbabaaaa | bbababaa | bbaaabaa | bbaabaaa | bbbbbaaa | bbbabaaa | bbbaaaaa | bbbbabaa | bbbbbbaa | bbbabbaa 11
+1: aab | bab
+2: bba | baa | abb | aab | aaa
+3: baba | baaa | babb | aaba | aaaa | aabb | abba | abaa
+4: bbbaa | bbbba | bbaba | babba | baaba | baaaa | ababa | abbba | aabba | abaaa | abbaa | aabaa | baaab | bbabb | baabb | aaabb | aaaab | abbab
+5: bbbb | bbab | babb | baab | baaa | abaa | aaaa | abab | aaab | abbb
+6: abbb | abba | abab | abaa | aaba | bbaa | baaa | bbab
+7: bba | baa | aba | aaa
+8: baaabaab | baabaaab | babbaaab | babaaaab | baabbbab | babbbbab | babbabab | babaabab | baababab | baaaabab | bbabaaab | bbaaaaab | bbabbaab | bbbaabab | bbaaabab | bbababab | bbbbbbab | bbbabbab | bbabbbab | bbaabbab | aaaabbab | aabbabab | aabaabab | aabbbbab | abbbbbab | ababbbab | abaabbab | abbaabab | abaaabab | abbbabab | abbabaab | abbbbaab | ababbaab | aaababbb | aabaabbb | aababbbb | aabbbbbb | aaabbbbb | abbaabbb | abbbabbb | abababbb | ababbbbb | abbbbbbb | ababaabb | abbaaabb | aaaababb | aaaaaabb | bbabaabb | bbaaaabb | bbabbabb | baabaabb | baaaaabb | baabbabb | babbaabb | babaaabb | babbbbbb | bababbbb | baabbbbb | baaabbbb | bbbabbbb | bbaabbbb | bbbbbbbb | bbbaabbb | bbaaabbb | abbbbbaa | abbabbaa | ababbbaa | abaabbaa | abbbbaaa | abbabaaa | abbaaaaa | ababaaaa | aaabaaaa | aaaaaaaa | aaabbbaa | aaaabbaa | aaaaabaa | aabbabaa | aabaabaa | aabbbbaa | aabbbaaa | aababaaa | aabaaaaa | abbaaaba | abbbaaba | ababaaba | aabbaaba | aaabaaba | aaabbaba | aabbbbba | aabbabba | aababbba | aabaabba | aaababba | abbaabba | abaaabba | abbabbba | babbaaaa | babaaaaa | bababbaa | babbabaa | babaaaba | babbabba | babaabba | baaabaaa | baababaa | baabbbaa | baabbaba | baabaaba | baabbbba | baaaabba | baaababa | bbbbabba | bbbaabba | bbabbaba | bbbababa | bbbbaaba | bbabbaaa | bbabaaaa | bbababaa | bbaaabaa | bbaabaaa | bbbbbaaa | bbbabaaa | bbbaaaaa | bbbbabaa | bbbbbbaa | bbbabbaa
+9: abb | bbb | bba | baa | aba | aaa
+10: bbaaa | bbbaa | bbaba | baaba | bbbba | bbbab | babab | babbb | ababa | abbba | aaaba | abbab | abaab | aabab | aaaab
+11: baaabaab | baabaaab | babbaaab | babaaaab | baabbbab | babbbbab | babbabab | babaabab | baababab | baaaabab | bbabaaab | bbaaaaab | bbabbaab | bbbaabab | bbaaabab | bbababab | bbbbbbab | bbbabbab | bbabbbab | bbaabbab | aaaabbab | aabbabab | aabaabab | aabbbbab | abbbbbab | ababbbab | abaabbab | abbaabab | abaaabab | abbbabab | abbabaab | abbbbaab | ababbaab | aaababbb | aabaabbb | aababbbb | aabbbbbb | aaabbbbb | abbaabbb | abbbabbb | abababbb | ababbbbb | abbbbbbb | ababaabb | abbaaabb | aaaababb | aaaaaabb | bbabaabb | bbaaaabb | bbabbabb | baabaabb | baaaaabb | baabbabb | babbaabb | babaaabb | babbbbbb | bababbbb | baabbbbb | baaabbbb | bbbabbbb | bbaabbbb | bbbbbbbb | bbbaabbb | bbaaabbb | abbbbbaa | abbabbaa | ababbbaa | abaabbaa | abbbbaaa | abbabaaa | abbaaaaa | ababaaaa | aaabaaaa | aaaaaaaa | aaabbbaa | aaaabbaa | aaaaabaa | aabbabaa | aabaabaa | aabbbbaa | aabbbaaa | aababaaa | aabaaaaa | abbaaaba | abbbaaba | ababaaba | aabbaaba | aaabaaba | aaabbaba | aabbbbba | aabbabba | aababbba | aabaabba | aaababba | abbaabba | abaaabba | abbabbba | babbaaaa | babaaaaa | bababbaa | babbabaa | babaaaba | babbabba | babaabba | baaabaaa | baababaa | baabbbaa | baabbaba | baabaaba | baabbbba | baaaabba | baaababa | bbbbabba | bbbaabba | bbabbaba | bbbababa | bbbbaaba | bbabbaaa | bbabaaaa | bbababaa | bbaaabaa | bbaabaaa | bbbbbaaa | bbbabaaa | bbbaaaaa | bbbbabaa | bbbbbbaa | bbbabbaa 31
+12: bbbaa | bbbba | baaba | babaa | abbaa | abaaa | aabba | aaaba | aaaaa | aabbb | ababb | aaaab | bbaab | bbbab | babab | babbb | bbbbb
+13: bab | bbb | abb
+14: bbb | bab | abb | aab | aaa
+15: baab | aaab | babb | aabb | bbbb | aaaa | baba | bbba
+16: bb | ba | ab | aa
+17: aab | aaa | bba
+18: babaa | baaaa | babba | aabaa | aaaaa | aabba | abbaa | abaaa | abbbb | ababb | aabbb | aaabb | bbabb | baabb | bbbbb | bbaab | baaab
+19: bbbbba | bbabba | babbba | baabba | bbbbaa | bbabaa | bbaaaa | babaaa | aabaaa | aaaaaa | aabbba | aaabba | aaaaba | abbaba | abaaba | abbbba | abbbaa | ababaa | abaaaa | bbaaab | bbbaab | babaab | abbaab | aabaab | aabbab | abbbbb | abbabb | ababbb | abaabb | aababb | bbaabb | baaabb | bbabbb
+20: bbb | abb | aab | baa | aaa | bba
+21: bbaaa | bbbaa | babaa | abbaa | aabaa | aabba | abbbb | abbab | ababb | abaab | aabab | bbaab | baaab | bbabb
+22: abbbbba | abbabba | ababbba | abaabba | abbbbaa | abbabaa | abbaaaa | ababaaa | aaabaaa | aaaaaaa | aaabbba | aaaabba | aaaaaba | aabbaba | aabaaba | aabbbba | aabbbaa | aababaa | aabaaaa | abbaaab | abbbaab | ababaab | aabbaab | aaabaab | aaabbab | aabbbbb | aabbabb | aababbb | aabaabb | aaababb | abbaabb | abaaabb | abbabbb | babbaaa | babaaaa | bababba | babbaba | babaaab | babbabb | babaabb | baaabaa | baababa | baabbba | baabbab | baabaab | baabbbb | baaaabb | baaabab | bbbbabb | bbbaabb | bbabbab | bbbabab | bbbbaab | bbabbaa | bbabaaa | bbababa | bbaaaba | bbaabaa | bbbbbaa | bbbabaa | bbbaaaa | bbbbaba | bbbbbba | bbbabba
+23: bab | aab | baa | aaa
+24: babaab | baaaab | baabab | babbbb | bababb | baabbb | baaabb | baaaaa | baabba | babbba | bbaaab | bbaaba | bbabbb | bbbaaa | bbbbab | bbbbbb | abbbaa | abbbba | abaaba | ababaa | aabbaa | aabaaa | aaabba | aaaaba | aaaaaa | aaabbb | aababb | aaaaab | abbaab | abbbab | ababab | ababbb | abbbbb
+25: bba | bbb | bab | abb | aab
+26: aababa | aaaaba | aabbba | ababba | bababa | bbabba | abbbaa | ababaa | aabbaa | aaabaa | abbaaa | abaaaa | aabaaa | aaaaaa | bbbaaa | bbaaaa | babaaa | baaaaa | baabaa | bbbaab | bbbbab | bbabab | babbab | baabab | baaaab | ababab | abbbab | aabbab | abaaab | abbaab | aabaab | baaabb | bbabbb | baabbb | aaabbb | aaaabb | abbabb
+27: baa | aaa | abb | bab
+28: bba | baa
+29: bba | bbb | aab | aba
+30: baba | bbba | aaba | bbab | baab | abab | aaab
+31: aaababa | aaaaabab | aaabbbab | aababbab | abababab | abbabbab | aabbbaab | aababaab | aaabbaab | aaaabaab | aabbaaab | aabaaaab | aaabaaab | aaaaaaab | abbbaaab | abbaaaab | ababaaab | abaaaaab | abaabaab | abbbaabb | abbbbabb | abbababb | ababbabb | abaababb | abaaaabb | aabababb | aabbbabb | aaabbabb | aabaaabb | aabbaabb | aaabaabb | abaaabbb | abbabbbb | abaabbbb | aaaabbbb | aaaaabbb | aabbabbb | ababbaaa | aaabbaaa | abaabaaa | aaaabaaa | aabbaaaa | abbbaaaa | abaaaaaa | aaababaa | aababbaa | abbbabaa | abbaabaa | abababaa | abaaabaa | abbbbaba | abbababa | ababbaba | abaababa | abaaaaba | aabaaaba | aaaaaaba | aabababa | aaaababa | aabbbaba | abaabbba | aaaabbba | ababbbba | aaabbbba | abbbbbba | aaaaabba | abababba | abbbabba | baaaaaab | bababaab | babbbaab | baabbaab | baaabbab | bababbab | bbbaaaab | bbbbaaab | bbbabaab | bbaabaab | bbbbbaab | bbbbababb | bbbaaabb | bbbbaabb | bbbababb | bbaababb | bbbbbabb | bbbbabbb | bbababbb | bbabbbbb | babababb | babbbabb | baaababb | babbabbb | babaabbb | baababbb | baaaabbb | bbabaaba | bbaaaaba | bbaababa | bbabbbba | bbababba | bbaabbba | bbaaabba | bbaaaaaa | bbaabbaa | bbabbbaa | bbbaaaba | bbbaabaa | bbbabbba | bbbbaaaa | bbbbbaba | bbbbbbba | babbbaaa | babbbbaa | babaabaa | bababaaa | baabbaaa | baabaaaa | baaabbaa | baaaabaa | baaaaaaa | baaabbba | baababba | baaaaaba | babbaaba | babbbaba | babababa | bababbba | babbbbba
+32: aaba | abaa | bbaa | baaa | abbb | bbbb | bbab | baab | abab | aaab
+33: baab | aaab | abab | bbbb | babb | abbb | aabb | aaaa | abba | bbba
+34: ba | bb
+35: bbba | bbbb | bbab | babb | baab | baaa | abab | abbb | aabb | abaa | abba | aaba
+36: aaaaaa | ababaa | abbbaa | aabbaa | aaabba | ababba | bbaaaa | bbbaaa | bbabaa | baabaa | bbbbaa | bbbabab | bbaaab | bbbaab | bbabab | baabab | bbbbab | bbbabb | bababb | babbbb | ababab | abbbab | aaabab | abbabb | abaabb | aababb | aaaabb
+37: aba | aaa | abb | bab
+38: babb | aabb | baab | aaab | abba | bbba | baaa
+39: bab | bbb | aab
+40: ba | aa
+41: abb | bbb | baa
+42: baaabaab | baabaaab | babbaaab | babaaaab | baabbbab | babbbbab | babbabab | babaabab | baababab | baaaabab | bbabaaab | bbaaaaab | bbabbaab | bbbaabab | bbaaabab | bbababab | bbbbbbab | bbbabbab | bbabbbab | bbaabbab | aaaabbab | aabbabab | aabaabab | aabbbbab | abbbbbab | ababbbab | abaabbab | abbaabab | abaaabab | abbbabab | abbabaab | abbbbaab | ababbaab | aaababbb | aabaabbb | aababbbb | aabbbbbb | aaabbbbb | abbaabbb | abbbabbb | abababbb | ababbbbb | abbbbbbb | ababaabb | abbaaabb | aaaababb | aaaaaabb | bbabaabb | bbaaaabb | bbabbabb | baabaabb | baaaaabb | baabbabb | babbaabb | babaaabb | babbbbbb | bababbbb | baabbbbb | baaabbbb | bbbabbbb | bbaabbbb | bbbbbbbb | bbbaabbb | bbaaabbb | abbbbbaa | abbabbaa | ababbbaa | abaabbaa | abbbbaaa | abbabaaa | abbaaaaa | ababaaaa | aaabaaaa | aaaaaaaa | aaabbbaa | aaaabbaa | aaaaabaa | aabbabaa | aabaabaa | aabbbbaa | aabbbaaa | aababaaa | aabaaaaa | abbaaaba | abbbaaba | ababaaba | aabbaaba | aaabaaba | aaabbaba | aabbbbba | aabbabba | aababbba | aabaabba | aaababba | abbaabba | abaaabba | abbabbba | babbaaaa | babaaaaa | bababbaa | babbabaa | babaaaba | babbabba | babaabba | baaabaaa | baababaa | baabbbaa | baabbaba | baabaaba | baabbbba | baaaabba | baaababa | bbbbabba | bbbaabba | bbabbaba | bbbababa | bbbbaaba | bbabbaaa | bbabaaaa | bbababaa | bbaaabaa | bbaabaaa | bbbbbaaa | bbbabaaa | bbbaaaaa | bbbbabaa | bbbbbbaa | bbbabbaa
+43: aaaba | aabaa | abbaa | abaaa | aabbb | abbbb | abbab | abaab | aabab | aaaab | babaa | baaaa | babba | bbaab | baaab | babab | bbbbb | bbabb | babbb | baabb
+44: abbb | abab | aabb | aaab | bbab | baab | bbbb | bbaa | baaa
+45: bbab | baab | abba | baba | bbaa
+46: aab | aaa
+47: babbaa | aabbaa | baabaa | aaabaa | abbaaa | bbbaaa | baaaaa | aababa | ababba | bbbaba | bbaaba | bababa | baaaba | bbbbab | bbabab | babbab | baabab | baaaab | abaaab | aaaaab | ababab | aaabab | abbbab | baabbb | aaabbb | babbbb | aabbbb | bbbbbb | aaaabb | bababb | bbbabb
+48: aaaaaab | ababaab | abbbaab | aabbaab | aaabbab | ababbab | bbaaaab | bbbaaab | bbabaab | baabaab | bbbbaab | bbbababb | bbaaabb | bbbaabb | bbababb | baababb | bbbbabb | bbbabbb | bababbb | babbbbb | abababb | abbbabb | aaababb | abbabbb | abaabbb | aababbb | aaaabbb | babaaba | baaaaba | baababa | babbbba | bababba | baabbba | baaabba | baaaaaa | baabbaa | babbbaa | bbaaaba | bbaabaa | bbabbba | bbbaaaa | bbbbaba | bbbbbba | abbbaaa | abbbbaa | abaabaa | ababaaa | aabbaaa | aabaaaa | aaabbaa | aaaabaa | aaaaaaa | aaabbba | aababba | aaaaaba | abbaaba | abbbaba | abababa | ababbba | abbbbba
+49: aabb | abab | aaaa | bbaa | bbba | baba | babb | bbbb
+50: baa | aaa | bab | aab | bbb
+51: ab | ba
+52: bbb | bab | abb | aabb
+53: aab | aba | bba | baa
+54: aaa | bab | bbb | abb
+55: baa | bba | aba | abb | bbb
+56: bab | aab | bbb | bba | aba | aaa
+57: bbbba | bbaba | babba | baaba | baaaa | abaaa | aaaaa | ababa | aaaba | abbba | baabb | aaabb | babbb | aabbb | bbbbb | aaaab | babab | bbbab
+58: aab
+59: bab | bbb | abb | baa | bba | aba
+60: abaa | aaaa | abba | baab | aaab | abab | bbbb | babb | abbb | aabb
+61: bba
+62: baa | aaa | aba | bbb | bab | abb | aab
+63: bb
+64: aaba | abaa | abab | abbb | aabb | bbaa | bbba | baba | babb | bbbb
+65: aabab | abaab | ababb | abbbb | aabbb | bbaab | bbbab | babab | babbb | bbbbb | babaa | bbaaa | aaaba | aaaaa
+66: bba | baa | aba | aaa | aab
+67: aab | bba | baa | bbb
+68: ab
+69: aaa | abb | bbb
+70: bba | aba | aaa | bab | bbb | abb
+71: aba | baa | bab | bbb | abb
+72: bbabb | baabb | abbab | babab | bbaab | abbaa | abaaa | ababa | aaaba | aabaa | bbbaa | babaa | baaaa | bbaba | bbbba | babba
+73: bbba | bbbb | baab | baba | abba | abaa | aabb | aaab | aaaa
+74: baa | aaa | bab
+75: aaa | bab | aab
+76: aba | aaa | abb | bba | baa
+77: abb | aba | aab | aaa | bba | baa | bbb
+78: aaba | abab | bbba | bbaa | baba | baaa
+79: aabab | aaaab | aabbb | ababb | babab | bbabb | abbba | ababa | aabba | aaaba | abbaa | abaaa | aabaa | aaaaa | bbbaa | bbaaa | babaa | baaaa | baaba
+80: bbaaa | baaaa | babba | bbaba | baaab | bbabb | baabb | aabaa | ababa | abbba | abbab | abaab | abbbb | aaabb | aabab
+81: bbb | bab | baa | aba
+82: aaaaa | ababa | abbba | aabba | aaabb | ababb | bbaaa | bbbaa | bbaba | baaba | bbbba | bbbab
+83: aababa | aaaabab | aabbbab | ababbab | bababab | bbabbab | abbbaab | ababaab | aabbaab | aaabaab | abbaaab | abaaaab | aabaaab | aaaaaab | bbbaaab | bbaaaab | babaaab | baaaaab | baabaab | bbbaabb | bbbbabb | bbababb | babbabb | baababb | baaaabb | abababb | abbbabb | aabbabb | abaaabb | abbaabb | aabaabb | baaabbb | bbabbbb | baabbbb | aaabbbb | aaaabbb | abbabbb | babbaaa | aabbaaa | baabaaa | aaabaaa | abbaaaa | bbbaaaa | baaaaaa | aababaa | ababbaa | bbbabaa | bbaabaa | bababaa | baaabaa | bbbbaba | bbababa | babbaba | baababa | baaaaba | abaaaba | aaaaaba | abababa | aaababa | abbbaba | baabbba | aaabbba | babbbba | aabbbba | bbbbbba | aaaabba | bababba | bbbabba
+84: ba | aa | bb
+85: abb | bab | bba
+86: baaaba | baabaa | babbaa | babaaa | baabbb | babbbb | babbab | babaab | baabab | baaaab | bbabaa | bbaaaa | bbabba | bbbaab | bbaaab | bbabab | bbbbbb | bbbabb | bbabbb | bbaabb | aaaabb | aabbab | aabaab | aabbbb | abbbbb | ababbb | abaabb | abbaab | abaaab | abbbab | abbaba | abbbba | ababba
+87: abaa | baba | bbba | bbab | baab | bbbb | aabb | abab
+88: baa | aaa | bbb | abb | aab
+89: abbb | abab | aabb | aaab | abba | abaa | aaba | aaaa | bbba | bbaa | baba | baaa | baab
+90: aaabb | abbab | abaab | abbbb | bbbbb | babbb | baabb | bbaab | baaab | bbbab | bbaba | bbbba | babba
+91: bbaa | bbba | baba | abba | aaba | aabb
+92: aabb | bbab | baab | bbbb
+93: baba | bbaa | aaab | aaaa
+94: ab | bb
+95: aba | baa
+96: baaa | bbab | baab | aaab | aaaa | abba
+97: bba | baa | bab | aab | aba
+98: bba | bbb | bab | abb | aab | aaa
+99: aaabab | aabaab | aababb | aabbbb | aaabbb | abbaab | abbbab | ababab | ababbb | abbbbb | ababaa | abbaaa | aaaaba | aaaaaa | bbabaa | bbaaaa | bbabba | baabaa | baaaaa | baabba | babbaa | babaaa | babbbb | bababb | baabbb | baaabb | bbbabb | bbaabb | bbbbbb | bbbaab | bbaaab
+100: bba | aba | abb
+101: bbb | bba | bab | baa | aba
+102: aba | aaa | abb
+103: abba | abaa | abab | aaab | aaba | bbba | baba | baaa | bbab | bbbb | babb
+104: ba | bb | ab
+105: aa
+106: abb | bab | aaa
+107: aaaa | baba | bbba | abba | aabb | babb
+108: aaa | bab | bbb
+109: baaa | bbaa | baba | aaba | bbba | bbab
+110: aaba | aaaa | aabb | abab | baba | bbab
+111: baaa | aaaa | abba | baba | aaab | babb | aabb
+112: baa | bba | bab | aab | bbb
+113: aaab | aaba | abbb | baaa | bbab | bbbb
+114: bba | baa | bbb | aab | aba
+115: baaabaa | baabaaa | babbaaa | babaaaa | baabbba | babbbba | babbaba | babaaba | baababa | baaaaba | bbabaaa | bbaaaaa | bbabbaa | bbbaaba | bbaaaba | bbababa | bbbbbba | bbbabba | bbabbba | bbaabba | aaaabba | aabbaba | aabaaba | aabbbba | abbbbba | ababbba | abaabba | abbaaba | abaaaba | abbbaba | abbabaa | abbbbaa | ababbaa | aaababb | aabaabb | aababbb | aabbbbb | aaabbbb | abbaabb | abbbabb | abababb | ababbbb | abbbbbb | ababaab | abbaaab | aaaabab | aaaaaab | bbabaab | bbaaaab | bbabbab | baabaab | baaaaab | baabbab | babbaab | babaaab | babbbbb | bababbb | baabbbb | baaabbb | bbbabbb | bbaabbb | bbbbbbb | bbbaabb | bbaaabb
+116: "a"
+117: aba | bab
+118: ab | aa
+119: bbbb | babb | abbb | aabb | bbba | baba | baaa | abaa
+120: aba | bab | bbb
+121: baaa | bbaa | baba | aaba | bbba | bbab | abab | abbb
+122: babba | aabba | baaba | aaaba | abbaa | bbbaa | baaaa | aabab | ababb | bbbab | bbaab | babab | baaab
+123: abbaaa | abaaaa | ababba | abbaba | abaaab | abbabb | abaabb | aaabaa | aababa | aabbba | aabbab | aabaab | aabbbb | aaaabb | aaabab | bbbabb | bbaabb | babbab | bbabab | bbbaab | babbaa | babaaa | bababa | baaaba | baabaa | bbbbaa | bbabaa | bbaaaa | bbbaba | bbbbba | bbabba
+124: bbbb | abbb | aabb | baab | aaab | bbab | baba | bbba | abba
+125: abaab | aaaab | aabab | abbbb | ababb | aabbb | aaabb | aaaaa | aabba | abbba | baaab | baaba | babbb | bbaaa | bbbab | bbbbb
+126: bbb | bab | abb | aab | bba | baa | aba | aaa
+127: bbbbb | bbabb | babbb | baabb | bbbba | bbaba | bbaaa | babaa | aabaa | aaaaa | aabbb | aaabb | aaaab | abbab | abaab | abbbb | abbba | ababa | abaaa
+128: bb | ab | aa
+129: aab | aba | bbb
+130: b | a
+131: "b"
+132: ba | aa | ab
+133: ba
+134: abaa | aaaa | abbb | aabb | aaab | bbab | baab | bbbb | bbba | baba | baaa
