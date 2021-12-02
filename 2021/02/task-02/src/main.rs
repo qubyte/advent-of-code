@@ -17,18 +17,15 @@ fn main() {
                 return;
             }
 
-            match collected[1].parse::<isize>() {
-                Ok(amount) => match collected[0] {
-                    "forward" => {
-                        forward += amount;
-                        depth += aim * amount;
-                    },
-                    "up" => aim -= amount,
-                    "down" => aim += amount,
-                    _ => ()
-                }
-                _ => ()
-            };
+            match (collected[0], collected[1].parse::<isize>()) {
+                ("forward", Ok(amount)) => {
+                    forward += amount;
+                    depth += aim * amount;
+                },
+                ("up", Ok(amount)) => aim -= amount,
+                ("down", Ok(amount)) => aim += amount,
+                _ => (),
+            }
         });
 
     println!("{}", forward * depth);
