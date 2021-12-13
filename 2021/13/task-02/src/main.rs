@@ -1,5 +1,6 @@
 use std::io::{stdin, BufRead};
 use std::collections::HashSet;
+use regex::Regex;
 
 type Coordinate = (usize, usize);
 
@@ -30,6 +31,7 @@ fn do_fold(line: &Coordinate, grid: &HashSet<Coordinate>) -> HashSet<Coordinate>
 
 fn main() {
     let mut done_reading_coordinates = false;
+    let fold_regex = Regex::new(r" (?P<direction>[xy]{1})=(?P<line>\d+)").unwrap();
 
     let (mut coordinates, folds): (HashSet<Coordinate>, Vec<Coordinate>) = stdin()
         .lock()
@@ -44,20 +46,12 @@ fn main() {
                 if split.len() == 2 {
                     coordinates.insert((split[0], split[1]));
                 }
-            } else {
-                let split: Vec<_> = line.split_whitespace().collect();
-
-                if split.len() == 3 {
-                    let axis_and_loc: Vec<_> = split[2].split('=').collect();
-
-                    if axis_and_loc.len() == 2 {
-                        if let Ok(loc) = axis_and_loc[1].parse::<usize>() {
-                            if axis_and_loc[0] == "x" {
-                                folds.push((loc, 0));
-                            } else if axis_and_loc[0] == "y" {
-                                folds.push((0, loc));
-                            }
-                        }
+            } else if let Some(fold_matches) = fold_regex.captures(&line) {
+                if let Ok(loc) = &fold_matches["line"].parse() {
+                    if &fold_matches["direction"] == "x" {
+                        folds.push((*loc, 0));
+                    } else {
+                        folds.push((0, *loc));
                     }
                 }
             }
