@@ -1,39 +1,56 @@
-use std::io::{stdin, Read};
+use std::io::{stdin, BufRead};
 
 fn main() -> std::io::Result<()> {
-    let mut input = String::new();
-    stdin().read_to_string(&mut input)?;
-    let split: Vec<_> = input.split("\n\n").collect();
+    let mut state: Vec<Vec<char>> = vec![];
+    let lines = stdin();
 
-    let mut state: Vec<Vec<char>> = vec![vec![]; 9];
+    loop {
+        let mut line = String::new();
+        lines.read_line(&mut line)?;
 
-    for line in split[0].lines().rev() {
-        let chars: Vec<char> = line.chars().collect();
+        if line.trim() == "" {
+            break; // State initialized.
+        }
 
-        for i in 0..state.len() {
-            let input_index = 1 + i * 4;
-
-            if chars[input_index].is_ascii_uppercase() {
-                state[i].push(chars[input_index]);
+        for (i, c) in line.chars().enumerate() {
+            if i == 0 || i % 4 != 1 || !c.is_ascii_uppercase() {
+                continue;
             }
+
+            let state_index = (i - 1) / 4;
+
+            while state.len() < state_index + 1 {
+                state.push(vec![]);
+            }
+
+            state[state_index].push(c);
+            state[state_index].rotate_right(1);
         }
     }
 
-    for instruction in split[1].trim().split("\n") {
-        let chunks = instruction.split(' ').collect::<Vec<_>>();
-        let count = chunks[1].parse::<usize>();
-        let from = chunks[3].parse::<usize>();
-        let to =  chunks[5].parse::<usize>();
+    lines
+        .lock()
+        .lines()
+        .filter_map(|line_result| line_result.ok())
+        .for_each(|instruction| {
+            if instruction.trim() == "" {
+                return;
+            }
 
-        match (count, from, to) {
-            (Ok(c), Ok(f), Ok(t)) => {
-                let len = state[f - 1].len() - c;
-                let mut removed: Vec<_> = state[f - 1].drain(len..).collect();
-                state[t - 1].append(&mut removed);
-            },
-            _ => ()
-        }
-    }
+            let chunks = instruction.split(' ').collect::<Vec<_>>();
+            let count = chunks[1].parse::<usize>();
+            let from = chunks[3].parse::<usize>();
+            let to =  chunks[5].parse::<usize>();
+
+            match (count, from, to) {
+                (Ok(c), Ok(f), Ok(t)) => {
+                    let len = state[f - 1].len() - c;
+                    let mut removed: Vec<_> = state[f - 1].drain(len..).collect();
+                    state[t - 1].append(&mut removed);
+                },
+                _ => ()
+            }
+        });
 
     for column in state {
         print!("{}", column[column.len() - 1])
