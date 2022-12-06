@@ -29,7 +29,6 @@ fn main() {
         .lock()
         .lines()
         .filter_map(|line_result| line_result.ok())
-        .filter(|line| !line.trim().is_empty())
         .filter_map(|instruction| {
             TryInto::<[usize; 3]>::try_into(
                 instruction
