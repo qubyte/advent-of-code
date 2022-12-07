@@ -2,7 +2,7 @@ import readline from 'node:readline';
 
 const rl = readline.createInterface({ input: process.stdin });
 const path = [];
-export const directories = { '/': { content: [], subdirectories: [] } };
+const directories = { '/': { content: [], subdirectories: [] } };
 
 function buildPath(...elements) {
     return elements.join('/').slice(1) || '/';
@@ -48,8 +48,8 @@ while (calculated.length < numDirectories) {
 const sizes = Object.values(directories).map(info => info.size);
 sizes.sort((a, b) => a - b);
 
-const used = 70000000 - directories['/'].size;
-const needed = 30000000 - used;
+const remaining = 70000000 - directories['/'].size;
+const needed = 30000000 - remaining;
 
 for (const size of sizes) {
     if (size > needed) {
