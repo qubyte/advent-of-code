@@ -2,7 +2,7 @@ import readline from 'node:readline';
 
 const rl = readline.createInterface({ input: process.stdin });
 const path = [];
-const directories = { '/': { content: [], subdirectories: [] } };
+const directories = { '/': { content: 0, subdirectories: [] } };
 
 function buildPath(...elements) {
     return elements.join('/').slice(1) || '/';
@@ -19,15 +19,14 @@ for await (const line of rl) {
         path.pop();
     } else {
         path.push(dir);
-        directories[buildPath(...path)] ||= { content: [], subdirectories: [] };
+        directories[buildPath(...path)] ||= { content: 0, subdirectories: [] };
     }
   } else if (line === '$ ls') {
     // Do nothing because the lines which follow are handled by branches below.
   } else if (line.startsWith('dir')) {
     directories[buildPath(...path)].subdirectories.push(buildPath(...path, line.slice(4)));
   } else { // file
-    const [size, name] = line.split(' ');
-    directories[buildPath(...path)].content.push([parseInt(size, 10), name]);
+    directories[buildPath(...path)].content += parseInt(line, 10);
   }
 }
 
@@ -37,9 +36,7 @@ const calculated = [];
 while (calculated.length < numDirectories) {
     for (const [dir, info] of Object.entries(directories)) {
         if (typeof info.size === 'undefined' && info.subdirectories.every(dir => calculated.includes(dir))) {
-            const contentSum = info.content.reduce((total, entry) => total + entry[0], 0);
-            const subdirSum = info.subdirectories.reduce((total, dir) => total + directories[dir].size, 0);
-            info.size = contentSum + subdirSum;
+            info.size = info.subdirectories.reduce((total, dir) => total + directories[dir].size, info.content);
             calculated.push(dir);
         }
     }
@@ -51,9 +48,4 @@ sizes.sort((a, b) => a - b);
 const remaining = 70000000 - directories['/'].size;
 const needed = 30000000 - remaining;
 
-for (const size of sizes) {
-    if (size > needed) {
-        console.log(size);
-        break;
-    }
-}
+console.log(sizes.find(s => s > needed));
