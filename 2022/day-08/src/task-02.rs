@@ -53,7 +53,6 @@ fn main() {
     let last_col_index = tree_grid[0].len() - 1; // ASSUMPTION
     let mut best_score = 0usize;
 
-    // Then iterate through the interior rows and columns ascending.
     // Don't bother with the boundaries since they always score 0.
     for j in 1..last_row_index {
         for i in 1..last_col_index {
@@ -88,7 +87,7 @@ mod tests {
     #[test]
     fn known_score_check_2() {
         let grid = prepare_grid("30373/25512/65332/33549/35390");
-        assert_eq!(score(&grid, 2, 1), 4);
+        assert_eq!(score(&grid, 1, 2), 4);
     }
 
     #[test]
