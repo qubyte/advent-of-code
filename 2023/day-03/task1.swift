@@ -1,5 +1,3 @@
-import Foundation
-
 var grid: [[Character]] = []
 
 while let line = readLine() {
@@ -11,7 +9,7 @@ let width = grid[0].count
 
 var total = 0
 var adjacentSymbol = false
-var batch: [Character] = []
+var batch = ""
 
 func checkNeighboursForSymbol(j: Int, i: Int) -> Bool {
   for y in max(0, j - 1)...min(height - 1, j + 1) {
@@ -29,12 +27,12 @@ func checkNeighboursForSymbol(j: Int, i: Int) -> Bool {
 
 func finalizeGroup() {
   if adjacentSymbol {
-    if let number = Int(String(batch)) {
+    if let number = Int(batch) {
       total += number
     }
     adjacentSymbol = false
   }
-  batch = []
+  batch = ""
 }
 
 for y in 0..<height {
@@ -42,7 +40,7 @@ for y in 0..<height {
     let char = grid[y][x]
 
     if char.isWholeNumber {
-      batch.append(char)
+      batch += String(char)
       adjacentSymbol = adjacentSymbol || checkNeighboursForSymbol(j: y, i: x)
     } else {
       finalizeGroup()
