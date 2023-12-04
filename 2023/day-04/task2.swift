@@ -22,22 +22,19 @@ while let line = readLine() {
   let overlap = winners.intersection(numbers).count
 
   tickets[ticketNumber] = overlap
-  ticketQueue.insert(ticketNumber, at: 0)
+  ticketQueue.append(ticketNumber)
 }
 
-var index = 0
+var count = 0
 
-while index < ticketQueue.count {
-  let ticketIndex = ticketQueue[index]
+while let ticketIndex = ticketQueue.popLast() {
+  count += 1
+
   let score = tickets[ticketIndex]!
 
   if score > 0 {
-    for ticketNumber in (ticketIndex + 1)...(ticketIndex + score) {
-      ticketQueue.append(ticketNumber)
-    }
+    ticketQueue.append(contentsOf: (ticketIndex + 1)...(ticketIndex + score))
   }
-
-  index += 1
 }
 
-print(ticketQueue.count)
+print(count)
