@@ -13,7 +13,8 @@ Cargo.lock
 
 .DS_Store
 
-/.build
+.build
+Package.resolved
 /Packages
 xcuserdata/
 DerivedData/
